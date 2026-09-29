@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en"
+    class="ltr font-brand" 
+    data-tenant="216bf062-e01d-440e-a9d9-257e97ab25eb" data-theme="light"
+    dir="ltr" style="--brand-primary: #1DA1F2; --brand-secondary: #0F172A; --brand-accent: #38BDF8; --brand-neutral-100: #FFFFFF; --brand-neutral-900: #0B0B0B; --brand-font: &#039;Inter&#039;, sans-serif; --color-background: #FFFFFF; --color-surface: #F5F7FA; --color-card: #FFFFFF; --color-border: #E5E7EB; --color-text-primary: #0B0B0B; --color-text-secondary: #6B7280; --color-button-primary-bg: #1DA1F2; --color-button-primary-text: #ffffff; --color-button-secondary-bg: #0F172A; --color-button-secondary-text: #ffffff">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="ikYrlpm2wUVAWqiq8RpqphoUVGQmtvKXNY60eO0Y">
+
+        <meta property="og:title" content="Instant - Certificate Verification">
+    <meta property="og:description"
+        content="Verify the authenticity of Instant certificates quickly and securely.">
+    <meta property="og:url" content="https://certification.instanteg.com/certificates/check/b7e495f0-3a65-4a1a-8c8b-17526c0d357a">
+    <meta property="og:image" content="https://certifly-seven.com/storage/logos/408611768487082.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Instant - Certificate Verification">
+    <meta name="twitter:description"
+        content="Verify the authenticity of Instant certificates quickly and securely.">
+    <meta name="twitter:image" content="https://certifly-seven.com/storage/logos/408611768487082.jpg">
+
+    <title>Certificate Verification - Instant</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://certification.instanteg.com/tenancy/assets/favicon.ico" type="image/x-icon">
+
+    <!-- Theme Fonts -->
+    
+    <!-- Dynamic Theme CSS -->
+    <link rel="stylesheet" href="https://certification.instanteg.com/theme/css" id="dynamic-theme-css">
+
+    <!-- Scripts -->
+    <link rel="preload" as="style" href="https://certification.instanteg.com/build/assets/app--Jobn2QL.css" /><link rel="modulepreload" as="script" href="https://certification.instanteg.com/build/assets/app-CcDWvS4I.js" /><link rel="stylesheet" href="https://certification.instanteg.com/build/assets/app--Jobn2QL.css" /><script type="module" src="https://certification.instanteg.com/build/assets/app-CcDWvS4I.js"></script>                <link rel="stylesheet" href="https://certification.instanteg.com/tenancy/assets/build/assets/app--Jobn2QL.css">
+        <script src="https://certification.instanteg.com/tenancy/assets/build/assets/app-CcDWvS4I.js"></script>
+    
+
+    <!-- Alpine.js and additional dependencies -->
+    
+
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}</style>
+
+
+    <!-- Inline Laravel Translations and Theme Data -->
+    <script>
+        window.csrf_token = 'ikYrlpm2wUVAWqiq8RpqphoUVGQmtvKXNY60eO0Y';
+        window.laravelTranslations = {
+            'en': {"app":{"name":"Certifly Seven","langToggle":"AR \/ EN"},"nav":{"dashboard":"Dashboard","proposalTemplates":"Proposal Templates","ecommerce":"eCommerce","analytics":"Analytics","marketing":"Marketing","crm":"CRM","task":"Task","calendar":"Calendar","profile":"Profile","users":"Users","tables":"Tables","basicTables":"Basic Tables","settings":"Settings","usage":"Usage","forms":"Forms","formElements":"Form Elements","alerts":"Alerts","buttons":"Buttons","authentication":"Authentication","signin":"Sign In","signup":"Sign Up","components":"Components","charts":"Charts","ui":"UI Elements","pages":"Pages","blank":"Blank Page","support":"Support","messages":"Messages","inbox":"Inbox","apiKeys":"API Keys","featureFlags":"Feature Flags","smtp":"SMTP","emailTemplates":"Email Templates","deliveryCenter":"Delivery Center","logout":"Log Out","toggleSidebar":"Toggle Sidebar"},"search":{"placeholder":"Type to search..."},"breadcrumb":{"home":"Home","dashboard":"Dashboard","ecommerce":"eCommerce"},"header":{"notifications":"Notifications","messages":"Messages","profile":"Profile","viewProfile":"View Profile","accountSettings":"Account Settings"},"sidebar":{"menu":"MENU","others":"OTHERS","support":"SUPPORT"},"pagination":{"prev":"Previous","next":"Next","first":"First","last":"Last","showing":"Showing","of":"of","entries":"entries"},"buttons":{"save":"Save","cancel":"Cancel","edit":"Edit","delete":"Delete","view":"View","add":"Add","create":"Create","update":"Update","search":"Search","filter":"Filter","reset":"Reset","submit":"Submit","close":"Close","back":"Back","edit-extra-fields":"Edit Extra Fields","duplicate":"Duplicate","archive":"Archive","send_email":"Send by Email","mailing":"Mailing"},"academies":{"title":"Academies","create":"Create Academy","edit":"Edit Academy","delete":"Delete Academy","name":"Name","address":"Address","email":"Email","phone":"Phone","website":"Website","description":"Description","logo":"Logo","status":"Status","branding":"Branding","confirm_delete":"Are you sure you want to delete this academy?","no_academies":"No academies found","search_placeholder":"Search academies..."},"features":{"page":"Feature Flags","central_subtitle":"Manage central feature definitions and tenant rollouts.","create_title":"Create Feature","create_feature":"Create Feature","save_feature":"Save Feature","feature":"Feature","name":"Name","key":"Key","description":"Description","variants":"Variants","versions":"Versions","rollouts":"Rollouts","variant":"Variant","variant_key":"Variant Key","variant_name":"Variant Name","default_variant":"Default Variant","default_variant_name":"Default","initial_version":"Initial Version","version":"Version","payload_json":"Payload JSON","archived":"Archived","no_features":"No feature flags found.","back_to_features":"Back to Features","rollout_not_saved":"The rollout was not saved.","create_rollout":"Create Rollout","rollout_help":"Tenant rollouts activate the feature for every user in each selected tenant.","scope":"Scope","scope_tenant":"Selected Tenants","scope_all_tenants":"All Tenants","scope_percentage_tenants":"Percentage of Tenants","tenants":"Tenants","tenants_help":"Select one or more tenants. The feature turns on for all users inside each selected tenant.","tenant_percentage":"Tenant Percentage","percentage_help":"Only used for percentage rollout. Tenants are selected deterministically by tenant id.","priority":"Priority","activate_from":"Activate From","activate_from_help":"Optional. Leave blank to activate immediately.","deactivate_after":"Deactivate After","deactivate_after_help":"Optional. Leave blank to keep it active until manually disabled.","reason":"Reason","enabled":"Enabled","disabled":"Disabled","disable":"Disable","tenant_or_percentage":"Tenant \/ Percentage","window":"Window","all_tenants":"All tenants","percentage_of_tenants":":percentage% of tenants","now":"Now","no_end":"No end","no_rollouts":"No rollouts configured.","messages":{"created":"Feature created.","updated":"Feature updated.","archived":"Feature archived.","rollouts_created":":count feature rollout(s) created.","rollout_updated":"Feature rollout updated.","rollout_disabled":"Feature rollout disabled."}},"api_keys":{"title":"API Keys","page":"API Keys","central_title":"Central API Key Management","central_subtitle":"Manage tenant API credentials, access scope, and usage from one place.","tenant_title":"Tenant API Key Management","tenant_subtitle":"Create and manage API keys for your tenant integrations safely.","docs_title":"API Documentation","docs_description":"Need endpoint details, authentication, and request\/response examples?","docs_link_label":"Open developer API docs","copy_now":"Copy your API key now","not_shown_again":"This key will not be shown again.","create_or_update_failed":"Could not create or update API key","create_title":"Create API Key","create_subtitle":"Create scoped keys with optional expiry and network restrictions.","tenant":"Tenant","select_tenant":"Select tenant","name":"Name","name_placeholder":"Production Key","scopes":"Scopes","scopes_placeholder":"* or certificates.read,stats.read","expires_at_optional":"Expires At (optional)","whitelist_warning":"Enable IP whitelisting only for fixed source IPs. If enabled with an empty list, requests are blocked.","enable_ip_whitelist":"Enable IP whitelist","ip_whitelist_entries":"IP whitelist entries","ip_whitelist_help":"Use IPv4, IPv6, or CIDR formats.","ip_placeholder":"192.168.1.10 or 10.0.0.0\/24","remove":"Remove","add_ip":"Add IP","create_key":"Create Key","list_title":"API Keys","list_subtitle":"Rotate, revoke, and maintain whitelist settings per key.","prefix":"Prefix","status":"Status","whitelist":"Whitelist","last_used":"Last Used","actions":"Actions","enabled":"Enabled","disabled":"Disabled","fail_closed_empty":"Fail-closed (empty list)","rotate":"Rotate","revoke":"Revoke","whitelist_on":"Whitelist on","save_whitelist":"Save Whitelist","no_keys_found":"No keys found.","usage_title":"Usage (:group)","usage_subtitle":"Review request trends by period and request type.","from":"From","to":"To","group_by":"Group By","group_day":"Day","group_hour":"Hour","apply_filters":"Apply Filters","period":"Period","type":"Type","requests":"Requests","success":"Success","errors":"Errors","no_usage_data":"No usage data for the selected period."},"smtp":{"title":"SMTP Configurations","page":"SMTP","central_title":"Central SMTP Management","central_subtitle":"Manage SMTP credentials for all tenants from one secured interface.","tenant_title":"Tenant SMTP Management","tenant_subtitle":"Manage SMTP configurations used by your tenant for email delivery.","create_title":"SMTP Configuration","create_subtitle":"Credentials are encrypted at rest and scoped per tenant.","tenant":"Tenant","select_tenant":"Select tenant","name":"Name","host":"Host","port":"Port","encryption":"Encryption","none":"None","username":"Username","password":"Password","password_optional_on_edit":"Leave empty to keep the current password.","from_email":"From Email","from_name":"From Name","reply_to_email":"Reply-To Email","active":"Active","default":"Default","set_default":"Set Default","list_title":"Saved SMTP Configurations","status":"Status","actions":"Actions","saved":"SMTP configuration saved successfully.","deleted":"SMTP configuration deleted.","default_set":"Default SMTP configuration updated.","default_active":"Current Default","default_not_set":"Not default","no_configurations":"No SMTP configurations found."},"proposals":{"card_title":"Proposal PDF","section_title":"Generate Proposal","section_description":"Select a template and generate a downloadable PDF proposal for this academy.","template_label":"Proposal Template","select_template":"\u2014 Select a template \u2014","generate_button":"Generate Proposal","regenerate_button":"Regenerate","regenerate_with":"Regenerate with template","generating":"Generating\u2026","retry_button":"Retry","download_button":"Download PDF","generation_started":"Proposal generation started.","being_generated":"Proposal is being generated. This may take a moment.","ready_message":"Proposal is ready to download.","failed_message":"Proposal generation failed. Please retry or contact support.","already_processing":"Proposal generation is already in progress.","generated_at":"Generated on :date","template_used":"Template: :name"},"proposal_templates":{"page_title":"Proposal Templates","title":"Proposal Templates","subtitle":"Manage reusable PPTX proposal templates.","create_button":"New Template","create_title":"Create Proposal Template","edit_title":"Edit Proposal Template","update_button":"Update Template","created":"Template created successfully.","updated":"Template updated successfully.","deleted":"Template deleted.","col_name":"Name","col_key":"Key","col_status":"Status","col_proposals":"Proposals","col_actions":"Actions","no_templates":"No proposal templates found.","field_name":"Template Name","field_key":"Template Key","field_pptx":"PPTX File","field_pptx_update":"Replace PPTX File","field_config":"Placeholder Configuration (JSON)","field_active":"Active","key_help":"Lowercase letters, numbers, and hyphens only.","pptx_help":"Upload a .pptx file. Max 20 MB.","pptx_update_help":"Leave empty to keep the current file.","current_file":"Current file","config_placeholder":"{\u0022placeholders\u0022: [...], \u0022logo_mandatory\u0022: false}"},"common":{"actions":"Actions","status":"Status","active":"Active","inactive":"Inactive","yes":"Yes","no":"No","loading":"Loading...","noData":"No data available","error":"Error","success":"Success","warning":"Warning","info":"Info","manage":"Manage","clear_filters":"Clear Filters","confirm_delete":"Are you sure you want to delete this?","search":"Search","all_statuses":"All Statuses","select":"Select","optional":"Optional","saving":"Saving","sending":"Sending","updated_at":"Updated"},"mailing":{"email_templates":{"page":"Email Templates","title":"Email Templates","subtitle":"Create reusable email messages to send certificates to students.","create":"Create Email Template","edit":"Edit Email Template","name":"Template Name","subject":"Email Subject","purpose":"Purpose","status":"Status","status_draft":"Draft","status_ready":"Ready","status_archived":"Archived","purpose_certificate_delivery":"Certificate Delivery","purpose_reminder":"Reminder","purpose_correction":"Correction","no_templates":"No email templates yet. Create your first reusable email message.","saved":"Email template saved.","archived":"Email template archived.","deleted":"Email template deleted.","duplicated":"Email template duplicated.","builder_label":"Email Body","tags_hint":"Personalization Tags \u2014 click to copy:","archive_confirm":"Archive this email template?"},"profile":{"page":"Mailing","title":"Mailing Settings","subtitle":"Configure how certificates are emailed from this template.","email_template":"Default Email Template","select_email_template":"Choose an email template","create_template":"Create new email template","recipient_email_source":"Where does the recipient email come from?","recipient_email_field":"Email Field","recipient_name_source":"Where does the recipient name come from?","recipient_name_field":"Name Field (optional)","auto_send":"Automatically send email after issuing a certificate","auto_send_hint":"Every new certificate from this template will be emailed immediately after issuing.","auto_send_requires_setup":"Complete mailing setup before enabling auto-send.","missing_email_behavior":"If recipient email is missing:","missing_email_needs_attention":"Add to Needs Attention list","missing_email_block":"Do not allow issuing without email","status_ready":"Mailing is ready. Certificates can be sent by email.","status_needs_setup":"Mailing needs setup. Some settings are missing.","saved":"Mailing settings saved.","no_smtp":"You need to configure your email sending setup before using mailing.","no_smtp_hint":"Set up an SMTP configuration to start sending certificate emails.","go_to_smtp":"Configure Email Sending","suggested_fields":"Suggested","source_data_field":"Certificate data field","placeholder_mapping":"Connect fields to placeholders","placeholder_mapping_hint":"Control how global placeholders resolve. By default they use system data; you can override them with a certificate data field.","placeholder_uses_name_field":"Uses the Name Field configured above","placeholder_default":"Default (system value)","placeholder_auto":"Auto-resolved"},"send":{"page":"Send Certificates by Email","step_choose_template":"Choose Template","step_review":"Review","step_preview":"Preview","step_confirm":"Confirm","certificates_selected":"certificates selected","ready_label":"Ready to send","needs_attention_label":"Need attention","issues_title":"Issues found","issue_missing_email":"Missing recipient email","issue_invalid_email":"Invalid email format","issue_no_mailing_profile":"No mailing profile configured for this template","preview_cta":"Preview","confirm_cta":"Confirm","confirm_sending":"You are about to send :count certificate emails.","using_template":"Email template","skipping":":count certificates will be skipped (missing or invalid email).","send_now":"Send :count Emails Now","dispatched":"Certificate emails are being sent. You can track progress in the Delivery Center.","no_smtp":"Email sending is not configured. Please set up SMTP first.","no_certificates":"No certificates selected.","no_ready_certificates":"No certificates are ready to send.","preview_for":"Previewing email for","subject":"Subject","email_not_found":"(email not found)","one_click_queued":"Certificate email has been queued successfully.","one_click_no_smtp":"Email sending is not configured for this tenant.","one_click_no_mailing_profile":"This certificate template has no mailing profile yet.","one_click_profile_not_ready":"This certificate mailing profile is not ready yet.","one_click_missing_email_template":"The mailing profile references a missing email template.","one_click_missing_recipient_email":"Recipient email is missing in certificate data.","one_click_invalid_recipient_email":"Recipient email format is invalid.","one_click_template_missing":"This certificate is not linked to a valid template.","one_click_unsupported_method":"Unsupported delivery method."},"delivery":{"page":"Email Delivery Center","title":"Email Delivery Center","tab_all":"All","tab_sent":"Sent","tab_failed":"Failed","tab_needs_attention":"Needs Attention","tab_skipped":"Skipped","col_recipient":"Recipient","col_email":"Email","col_certificate":"Certificate","col_template":"Email Template","col_status":"Status","col_date":"Date","status_queued":"Queued","status_sending":"Sending","status_sent":"Sent","status_failed":"Failed","status_skipped":"Skipped","status_needs_attention":"Needs Attention","resend":"Resend","resend_confirm":"This certificate email was already sent. Send again?","resent":"Email queued for resend.","no_logs":"No email delivery records."}}}        };
+        window.currentLocale = 'en';
+
+        // Theme configuration
+        window.currentTheme = {"brand":{"accent":"#38BDF8","neutral":{"100":"#FFFFFF","900":"#0B0B0B"},"primary":"#1DA1F2","secondary":"#0F172A","font_family":"\u0027Inter\u0027, sans-serif"},"modes":{"dark":{"color":{"card":"#141414","text":{"primary":"#FFFFFF","secondary":"#9CA3AF"},"border":"#262626","surface":"#141414","background":"#0B0B0B"}},"light":{"color":{"card":"#FFFFFF","text":{"primary":"#0B0B0B","secondary":"#6B7280"},"border":"#E5E7EB","surface":"#F5F7FA","background":"#FFFFFF"}}}};
+        window.currentTenant = '216bf062-e01d-440e-a9d9-257e97ab25eb';
+        window.currentThemeTokens = {"brand":{"accent":"#38BDF8","neutral":{"100":"#FFFFFF","900":"#0B0B0B"},"primary":"#1DA1F2","secondary":"#0F172A","font_family":"\u0027Inter\u0027, sans-serif"},"semantic":{"color":{"button":{"primary":{"bg":"#1DA1F2","text":"#ffffff"},"secondary":{"bg":"#0F172A","text":"#ffffff"}},"card":"#FFFFFF","text":{"primary":"#0B0B0B","secondary":"#6B7280"},"border":"#E5E7EB","surface":"#F5F7FA","background":"#FFFFFF"}}};
+        (function() {
+            try {
+                const storedMode = localStorage.getItem('theme-mode');
+                const fallbackMode = 'light';
+                const mode = ['light', 'dark'].includes(storedMode) ? storedMode : fallbackMode;
+                const html = document.documentElement;
+                html.dataset.theme = mode;
+                if (mode === 'dark') {
+                    html.classList.add('dark');
+                } else {
+                    html.classList.remove('dark');
+                }
+                window.initialThemeMode = mode;
+            } catch (error) {
+                window.initialThemeMode = 'light';
+            }
+        })();
+    </script>
+
+        <style>
+        .certificate-page {
+            --success-color: #059669;
+            --success-hover: #047857;
+            --error-color: #dc2626;
+            --error-hover: #b91c1c;
+            --warning-color: #d97706;
+            --primary-color: var(--color-button-primary-bg, #2563eb);
+            --primary-hover: var(--color-button-primary-hover, var(--primary-color));
+            --primary-text-color: var(--color-button-primary-text, #ffffff);
+            --neutral-50: #f9fafb;
+            --neutral-100: #f3f4f6;
+            --neutral-200: #e5e7eb;
+            --neutral-600: #4b5563;
+            --neutral-700: #374151;
+            --neutral-800: #1f2937;
+            --neutral-900: #111827;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            min-height: 100vh;
+        }
+
+        .academy-logo {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            filter: drop-shadow(var(--shadow-sm));
+            transition: transform 0.3s ease;
+        }
+
+        .academy-logo:hover {
+            transform: scale(1.05);
+        }
+
+        .verification-icon {
+            background: var(--primary-color);
+            color: white;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-lg);
+            animation: fadeInScale 0.6s ease-out;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            box-shadow: var(--shadow-xl);
+            border: 1px solid var(--neutral-200);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
+            transform: translateY(-2px);
+        }
+
+        .success-header {
+            background: var(--success-color);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .error-header {
+            background: var(--error-color);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .status-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            box-shadow: var(--shadow-md);
+        }
+
+        .success-icon {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .error-icon {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .detail-item {
+            background: var(--neutral-50);
+            border: 1px solid var(--neutral-200);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .detail-item:hover {
+            background: var(--neutral-100);
+            border-color: var(--primary-color);
+            transform: translateX(-4px);
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: var(--neutral-700);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .detail-value {
+            font-weight: 500;
+            color: var(--neutral-900);
+            text-align: right;
+            flex: 1;
+        }
+
+        .dot-indicator {
+            width: 8px;
+            height: 8px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2rem;
+            font-weight: 600;
+            border-radius: 16px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+            cursor: pointer;
+            gap: 0.5rem;
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: var(--primary-text-color);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            color: var(--primary-text-color);
+        }
+
+        .btn-secondary {
+            background: var(--neutral-700);
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: var(--neutral-800);
+            color: white;
+        }
+
+        .btn-linkedin {
+            background: #0077B5;
+            color: white;
+            border-color: #0077B5;
+        }
+
+        .btn-linkedin:hover {
+            background: #006399;
+            border-color: #006399;
+            color: white;
+        }
+
+        .btn-linkedin svg {
+            fill: currentColor;
+        }
+
+        .info-point {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            text-align: right;
+        }
+
+        .info-point-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--error-color);
+            border-radius: 50%;
+            margin-top: 0.5rem;
+            flex-shrink: 0;
+        }
+
+        .warning-box {
+            background: #fef3c7;
+            border: 1px solid #fde68a;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .help-section {
+            background: white;
+            border: 1px solid var(--neutral-200);
+            border-radius: 16px;
+            padding: 1rem 1.5rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.2s ease;
+        }
+
+        .help-section:hover {
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-color);
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-slide-up {
+            animation: slideInUp 0.6s ease-out;
+        }
+
+        @media (max-width: 640px) {
+            .academy-logo {
+                width: 80px;
+                height: 80px;
+            }
+
+            .verification-icon {
+                width: 60px;
+                height: 60px;
+            }
+
+            .detail-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .detail-value {
+                text-align: right;
+                width: 100%;
+            }
+        }
+
+        /* Focus states for accessibility */
+        .btn:focus,
+        .detail-item:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* High contrast mode support */
+        @media (prefers-contrast: high) {
+            .card {
+                border: 2px solid var(--neutral-800);
+            }
+
+            .detail-item {
+                border: 2px solid var(--neutral-400);
+            }
+        }
+    </style>
+</head>
+
+<body x-data="{
+    page: 'Certificate Verification',
+    loaded: true,
+    darkMode: $persist(window.initialThemeMode === 'dark'),
+    stickyMenu: false,
+    sidebarToggle: false,
+    scrollTop: false
+}" x-init="const syncFromThemeManager = (event) => {
+    const isDark = event.detail?.mode === 'dark';
+    if (typeof isDark === 'boolean' && darkMode !== isDark) {
+        darkMode = isDark;
+    }
+};
+
+window.addEventListener('theme-mode-updated', syncFromThemeManager);
+if (window.initialThemeMode) {
+    syncFromThemeManager({ detail: { mode: window.initialThemeMode } });
+}
+
+$watch('darkMode', value => {
+    const desiredMode = value ? 'dark' : 'light';
+    localStorage.setItem('darkMode', JSON.stringify(value));
+    if (window.themeManager && window.themeManager.currentMode !== desiredMode) {
+        window.themeManager.setMode(desiredMode);
+    }
+});" x-bind:data-theme="darkMode ? 'dark' : 'light'"
+    class="ltr font-brand bg-background">
+
+    <!-- Main Content -->
+        <div class="certificate-page py-8 px-4 sm:px-6 lg:px-8" dir="ltr">
+        <div class="max-w-4xl mx-auto">
+            <!-- Academy Logo & Header Section -->
+            <div class="text-center mb-6 animate-slide-up">
+                <div class="flex items-center justify-center mb-4">
+                    <img src="https://certifly-seven.com/storage/logos/408611768487082.jpg"
+                        alt="Instant logo"
+                        class="academy-logo" style="height:120px;">
+                    
+                </div>
+                <h1 class="text-2xl font-bold text-gray-900 mb-2">Certificate Verification System</h1>
+            </div>
+
+                            <!-- Valid Certificate Card -->
+                <div class="card animate-slide-up" style="animation-delay: 0.2s;">
+                    <!-- Success Header -->
+                    <div class="success-header">
+                        <div class="status-icon success-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <h2 class="text-3xl font-bold mb-3">Certificate Verified Successfully</h2>
+                        <p class="text-lg opacity-90 mb-4">This certificate has been authenticated and is valid.</p>
+                        <span
+                            class="inline-block px-4 py-2 bg-white bg-opacity-20 text-gray-900 rounded-full text-sm font-semibold tracking-wide backdrop-blur-sm">
+                            Verified by Instant
+                        </span>
+
+
+
+                    </div>
+
+                    <!-- Certificate Details -->
+                    <div class="p-8 lg:p-12">
+                        <div class="mb-8">
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                                <div class="w-1 h-8 bg-blue-600 rounded-full"></div>
+                                Certificate Details
+                            </h3>
+
+                            <div class="space-y-4">
+                                <div class="detail-item">
+                                    <div class="detail-label">
+                                        <div class="dot-indicator"></div>
+                                        <span>Serial</span>
+                                    </div>
+                                    <div class="detail-value">b7e495f0-3a65-4a1a-8c8b-17526c0d357a</div>
+                                </div>
+                                                                    <div class="detail-item">
+                                        <div class="detail-label">
+                                            <div class="dot-indicator"></div>
+                                            <span>Date</span>
+                                        </div>
+                                        <div class="detail-value">28/09/2026</div>
+                                    </div>
+                                                                    <div class="detail-item">
+                                        <div class="detail-label">
+                                            <div class="dot-indicator"></div>
+                                            <span>name</span>
+                                        </div>
+                                        <div class="detail-value">Ibrahim Mohamed Ibrahim</div>
+                                    </div>
+                                                                    <div class="detail-item">
+                                        <div class="detail-label">
+                                            <div class="dot-indicator"></div>
+                                            <span>email</span>
+                                        </div>
+                                        <div class="detail-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d69fb4a4b7bebfbbf8b3baa2b7b1b3a4e4e6e6e096b1bbb7bfbaf8b5b9bb">[email&#160;protected]</a></div>
+                                    </div>
+                                                                    <div class="detail-item">
+                                        <div class="detail-label">
+                                            <div class="dot-indicator"></div>
+                                            <span>Course</span>
+                                        </div>
+                                        <div class="detail-value">Has Successfully Completed The SOC Diploma (150 Hours)</div>
+                                    </div>
+                                                            </div>
+                        </div>
+
+                        <!-- Download Section -->
+                        <div class="border-t border-gray-200 pt-8">
+                            <h4 class="text-xl font-bold text-gray-900 mb-6 text-center">
+                                Download &amp; Share Your Certificate
+                            </h4>
+
+                            <!-- Download Buttons -->
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+                                <a href="https://certification.instanteg.com/certificates/8451/download/pdf/no"
+                                    class="btn btn-primary"
+                                    aria-label="Download certificate as PDF">
+                                                                        Download PDF
+                                </a>
+                            </div>
+
+                            <!-- LinkedIn Share Section -->
+                            <div class="mt-8 pt-6 border-t border-gray-200">
+                                <div class="text-center mb-4">
+                                    <p class="text-sm text-gray-600 mb-3">
+                                        Share your achievement with your professional network.
+                                    </p>
+                                </div>
+                                <div class="flex justify-center">
+                                    <a 
+                                        href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Instant Cert&organizationName=Instant&issueYear=2026
+&issueMonth=09&certUrl=https%3A%2F%2Fcertification.instanteg.com%2Fcertificates%2Fcheck%2Fb7e495f0-3a65-4a1a-8c8b-17526c0d357a&certId=b7e495f0-3a65-4a1a-8c8b-17526c0d357a"
+                                        target="_blank" rel="noopener noreferrer" class="btn btn-linkedin"
+                                        aria-label="Add the certificate to LinkedIn">
+                                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <path
+                                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg>
+                                        Add to LinkedIn
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- Help Section -->
+            
+        </div>
+    </div>
+    
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth scroll behavior for any internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Add loading state for download buttons
+            document.querySelectorAll('.btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    if (this.href && (this.href.includes('download') || this.href.includes('pdf') ||
+                            this.href.includes('png'))) {
+                        const originalText = this.innerHTML;
+                        this.innerHTML = `
+                    <svg class="animate-spin w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Preparing download...
+                `;
+                        this.style.pointerEvents = 'none';
+
+                        // Reset after 3 seconds (in case download completes quickly)
+                        setTimeout(() => {
+                            this.innerHTML = originalText;
+                            this.style.pointerEvents = 'auto';
+                        }, 3000);
+                    }
+                });
+            });
+
+            // Add keyboard navigation support
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Tab') {
+                    document.body.classList.add('keyboard-navigation');
+                }
+            });
+
+            document.addEventListener('mousedown', function() {
+                document.body.classList.remove('keyboard-navigation');
+            });
+        });
+    </script>
+    <script src="https://certification.instanteg.com/vendor/livewire/livewire.min.js?id=df3a17f2"   data-csrf="ikYrlpm2wUVAWqiq8RpqphoUVGQmtvKXNY60eO0Y" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"d95d325f78b04fa2b1b83deb34f3a9d4","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+</html>

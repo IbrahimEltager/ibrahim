@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate Verification</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f8fafc;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.logo{
+    text-align:center;
+    font-size:38px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:35px;
+}
+
+.logo-blue{
+    color:#49a6ff;
+}
+
+.title{
+    text-align:center;
+    font-size:26px;
+    font-weight:700;
+    margin-bottom:25px;
+    color:#222;
+}
+
+.card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.success{
+    background:linear-gradient(
+        135deg,
+        #4f9156,
+        #67af6d
+    );
+
+    color:white;
+    text-align:center;
+    padding:60px 30px;
+}
+
+.check{
+    width:72px;
+    height:72px;
+    border-radius:50%;
+    margin:auto;
+    background:rgba(255,255,255,.18);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:42px;
+    font-weight:bold;
+}
+
+.success h1{
+    margin-top:20px;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.success p{
+    font-size:16px;
+}
+
+.badge{
+    display:inline-block;
+    background:white;
+    color:#333;
+    padding:10px 22px;
+    border-radius:30px;
+    margin-top:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.content{
+    padding:35px;
+}
+
+.section-title{
+    font-size:28px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:25px;
+}
+
+.section-title::before{
+    content:"";
+    width:4px;
+    height:36px;
+    background:#3b82f6;
+    border-radius:10px;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:1px solid #ececec;
+    border-radius:18px;
+    padding:22px 25px;
+    margin-bottom:18px;
+    background:white;
+}
+
+.label{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:20px;
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    background:#4ea8ff;
+    border-radius:50%;
+}
+
+.value{
+    color:#444;
+    font-size:20px;
+}
+
+@media(max-width:768px){
+
+.item{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.value{
+    font-size:16px;
+}
+
+.success h1{
+    font-size:24px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+<span class="logo-blue">[i]</span>NSTANT
+</div>
+
+<div class="title">
+Certificate Verification System
+</div>
+
+<div class="card">
+
+<div class="success">
+
+<div class="check">
+✓
+</div>
+
+<h1>
+Certificate Verified Successfully
+</h1>
+
+<p>
+This certificate has been authenticated and is valid.
+</p>
+
+<div class="badge">
+Verified by Instant
+</div>
+
+</div>
+
+<div class="content">
+
+<h2 class="section-title">
+Certificate Details
+</h2>
+
+<div class="item">
+<div class="label">
+<div class="dot"></div>
+Serial
+</div>
+
+<div class="value">
+b7e495f0-3a65-4a1a-8c8b-17526c0d357a
+</div>
+</div>
+
+<div class="item">
+<div class="label">
+<div class="dot"></div>
+Date
+</div>
+
+<div class="value">
+28/09/2026
+</div>
+</div>
+
+<div class="item">
+<div class="label">
+<div class="dot"></div>
+Name
+</div>
+
+<div class="value">
+Ibrahim Mohamed Ibrahim
+</div>
+</div>
+
+<div class="item">
+<div class="label">
+<div class="dot"></div>
+Email
+</div>
+
+<div class="value">
+Ibrahim.eltager1@gmail.com
+</div>
+</div>
+
+<div class="item">
+<div class="label">
+<div class="dot"></div>
+Course
+</div>
+
+<div class="value">
+Has Successfully Completed The Training Of SOC Diploma (1 Month)
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
